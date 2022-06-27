@@ -1,0 +1,31 @@
+{
+  "name": "coingroup-hazelcast-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariosor12/Coingroup-hazelcast-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariosor12/Coingroup-hazelcast-library/issues"
+  },
+  "homepage": "https://github.com/Mariosor12/Coingroup-hazelcast-library#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsonpath": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.1",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.1"
+  }
+}
