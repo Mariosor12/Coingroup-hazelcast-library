@@ -2,9 +2,10 @@
   "name": "coingroup-hazelcast-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "build": "babel lib --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Mariosor12/Coingroup-hazelcast-library#readme",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.18.1",
     "jsonpath": "^1.1.1"
   },
